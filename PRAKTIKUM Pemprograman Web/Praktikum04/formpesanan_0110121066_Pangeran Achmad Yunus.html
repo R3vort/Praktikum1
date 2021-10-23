@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sale your Items Now!</title>
+ <body>
+<header style="background-color: orange;">       
+<table align="center" width="850">
+		<tr>
+          <th><a href="/">Home</a> </th>
+		  <th>|</th>
+          <th><a href="/link">Generate Link</a> </th>
+		  <th>|</th>
+          <th><a href="/history">Transaction History</a> </th>
+		  <th>|</th>
+          <th><a href="/policy">Policy</a> </th> 
+		  <th>|</th>
+          <th><a href="/logout">Logout</a> </th> 
+		</tr>
+</table>
+</header>
+<div>
+    <main>
+	<table align="left">
+			<tr>
+				<td>
+				<img src="xpic.png">
+				 <form action="/client.php" method="post" enctype="multipart/form-data">
+				 </em><br>
+					<input type="file" name="photo">
+				 </form>
+				</td>
+			</tr>
+	</table>
+</div>
+</main>
+<aside style="display: grid; width: 40%; padding: 10px;">
+	<table align="right" cellpadding="5" align="right" width="800">
+	<form action="barangprocess.html" method="post">
+				<td>
+				<label for="titlenya">Title Here: </label>
+				</td>
+				<td>
+					<input type="text" name="fulltitle" id="titlenya">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="deskripsinya">Description: </label>
+				</td>
+				<td>
+				<br>
+					<textarea id="deskripsinya" rows="5" cols="45" name="fulldeskripsi" placeholder=""></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<label for="acnum">Account Number:  </label>
+				</td>
+				<td>
+					<input type="number" name="fullacnum" id="acnum">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<label for="trancnya">Transaction: </label>
+				</td>
+				<td>
+					<select name="brpaja" id="brpbarang">
+						<option value="1aja">1</option>
+						<option value="2aja">2</option>
+						<option value="3aja">3</option>
+						<option value="4aja">4</option>
+						<option value="5aja">5</option>
+						<option value="6aja">6</option>
+						<option value="7aja">7</option>
+				</td>
+			</tr>
+			<tr>
+				<td>
+			
+				</td>
+				<td>
+					<p>*if the transaction is for 3 person, choose 3 from the drop-down list.</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+			
+				</td>
+				<td>
+					<input type="checkbox" name="mpnya" id="mp1" value="mp" checked>
+					<label for="mp1">Send to Mobile Phone</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+			
+				</td>
+				<td>
+					<input type="checkbox" name="cbnya" id="cb1" value="cb" checked>
+					<label for="cb1">Send to Email</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<label for="mobphonya">Send to Mobile Phone: </label>
+				</td>
+				<td>
+					<input type="text" name="fullmobpho" id="mobphonya">
+				</td>
+			</tr>
+				<tr>
+				<td>
+				<label for="mailnya">Send to Email: </label>
+				</td>
+				<td>
+					<input type="text" name="fullmail" id="mailnya">
+				</td>
+			</tr>
+			<tr>
+				<td>
+			
+				</td>
+				<td>
+					<p><input type="Submit" value="Generate Link">
+				</td>
+	</table>
+	</aside>
+			
+			
+	
+	
+	
